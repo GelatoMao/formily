@@ -59,6 +59,7 @@ import { Graph } from './Graph'
 
 const DEV_TOOLS_HOOK = '__FORMILY_DEV_TOOLS_HOOK__'
 
+// form 数据模型定义
 export class Form<ValueType extends object = any> {
   displayName = 'Form'
   id: string
